@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--  li不能单独存在，必须包裹在ul里面-->
+    <!-- ul的“儿子”不能是别的东西，只能有li -->
+    <ul>
+        <li>默认1,默认实心圆点</li>
+        <li>默认2</li>
+        <li>默认3</li>
+    </ul>
+    <ul typc="squarc">
+        <li>实心方点</li>
+    </ul>
+    <ul type="circle">
+        <li>空心圆点</li>
+    </ul>
+
+    <!-- 列表之间嵌套 -->
+    <ul>
+        <li><b>北京市</b>
+            <ul>
+                <li>海定区</li>
+                <li>朝阳区</li>
+                <li>东城区</li>
+            </ul>
+        </li>
+        <li><b>广州市</b>
+            <ul>
+                <li>天河区</li>
+                <li>越秀区</li>
+            </ul>
+
+        </li>
+    </ul>
+
+    <!-- 有序列表ol，里面的没一下项是li -->
+    <ol>
+        <li>列表1</li>
+        <li>列表2</li>
+        <li>列表3</li>
+    </ol>
+    <!--start属性值表示从几开始  -->
+    <ol type="1">
+        <li>呵呵</li>
+        <li>呵呵</li>
+        <li>呵呵</li>
+    </ol>
+    
+    <ol type="a">
+        <li>嘿嘿</li>
+        <li>嘿嘿</li>
+        <li>呵呵</li>
+    </ol>
+    
+    <ol type="i" start="4">
+        <li>哈哈</li>
+        <li>哈哈</li>
+        <li>哈哈</li>
+    </ol>
+    
+    <ol type="I" start="10">
+        <li>么么</li>
+        <li>么么</li>
+        <li>么么</li>
+    </ol>
+
+    <!-- 定义列表dl -->
+    <!--dt、dd只能在dl里面；dl里面只能有dt、dd  -->
+    <dl>
+        <dt>第一条</dt>
+        <dd>你若是觉得你有实力和我玩，良辰不介意奉陪到底</dd>
+        <dd>我会让你明白，我从不说空话</dd>
+        <dd>我是本地的，我有一百种方式让你呆不下去；而你，无可奈何</dd>
+    
+        <dt>第二条</dt>
+        <dd>良辰最喜欢对那些自认能力出众的人出手</dd>
+        <dd>你可以继续我行我素，不过，你的日子不会很舒心</dd>
+        <dd>你只要记住，我叫叶良辰</dd>
+        <dd>不介意陪你玩玩</dd>
+        <dd>良辰必有重谢</dd>
+        <!-- dd是描述dt的 -->
+
+        <dl>
+            <dt>购物指南</dt>
+            <dd>
+                <a href="#">购物流程</a>
+                <a href="#">会员介绍</a>
+                <a href="#">生活旅行/团购</a>
+                <a href="#">常见问题</a>
+                <a href="#">大家电</a>
+                <a href="#">联系客服</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>配送方式</dt>
+            <dd>
+                <a href="#">上门自提</a>
+                <a href="#">211限时达</a>
+                <a href="#">配送服务查询</a>
+                <a href="#">配送费收取标准</a>
+                <a href="#">海外配送</a>
+            </dd>
+        </dl>
+    
+    </dl>
+
+</body>
+</html>
