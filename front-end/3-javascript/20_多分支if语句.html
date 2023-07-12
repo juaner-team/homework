@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //用户输入
+        var s = parseFloat(prompt("请输入您的成绩","67"));
+        //利用多分支if语句进行判断
+        // if(s >= 85) {
+        //     alert("优秀");
+
+        // } else if (s < 85 && s >= 75){
+        //     alert("良好");
+        // } else if (s < 75 && s >= 60){
+        //     alert("及格");
+
+        // } else {
+        //     alert("不及格");
+        // }
+
+        //简化
+        if(s >= 85) {
+            alert("优秀");
+
+        } else if (s >= 75){  //如果程序能够判断到这里，说明s 肯定小于85的
+            alert("良好");
+        } else if (s >= 60){  //如果程序能够判断到这里，说明s 肯定小于60的
+            alert("及格");
+
+        } else {
+            alert("不及格");
+        }
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

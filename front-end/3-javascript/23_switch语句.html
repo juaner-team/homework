@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //用户输入
+        // var xingzuo = prompt("请输入您的星座","白羊座");
+        //进行匹配
+        // switch (xingzuo) {
+        //     case "白羊座":
+        //         alert("运势持续在线，将会时忙而充实的一天。");
+        //         break;
+        //     case "金牛座":
+        //         alert("你或许需要付出更多的努力，才能实现自己的大志。");
+        //         break;
+        //     case "双子座":
+        //         alert("你的脾气比较大，容易把负面情绪波及到最亲近的人。");
+        //         break;
+        //     case "巨蟹座":
+        //         alert("人际关系会给你带来一些便利，善加把握会得到很多。");
+        //         break;
+        //     default:
+        //         alert("对不起，数据库不全，不能找到您的星座。");
+        //         break;
+        // }
+
+        //用if语句书写
+        // if(xingzuo == "白羊座"){
+        //     alert ("运势持续在线，将会是忙而充实的一天。");
+        // } else if(xingzuo == "金牛座"){
+        //     alert("你或许需要付出更多的努力，才能实现自己的大志。");
+        // }else if(xingzuo == "双子座"){
+        //     alert("你的脾气比较大，容易把负面情绪波及到最亲近的人。");
+        // }else if(xingzuo == "巨蟹座"){
+        //     alert("人际关系会给你带来一些便利，善加把握会得到很多。");
+        // }else{
+        //     alert("对不起，数据库不全，不能找到您的星座。");
+        // }
+
+
+        //案例2： 输出对应月份的天数
+        var month = parseInt(prompt("请输入一个月份的数字","1"));
+        //输出对应天数
+        switch(month){
+            case 1 :
+            case 3 :
+            case 5 :
+            case 7 :
+            case 8 :
+            case 10 :
+            case 12 :
+                alert("这个月有31天");
+                break;
+            case 2:
+                alert("这个月有28天或29天");
+                break;
+            default:
+                alert("这个月有30天");
+                break;
+
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
