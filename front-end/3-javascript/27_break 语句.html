@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //找一下1-50之间有没有能够被5整除的数字 
+        //找到一个这样的数，就说明存在，所以不需要往后面继续验证了 
+        // for ( var i = 1; i <= 50; i++) {
+        //     if(i % 5 == 0){
+        //         console.log(i);
+        //         break;
+        //     }
+        // }     
+
+        //break  只能打断本层的循环
+        // for (var i = 1; i <= 4; i++){
+        //     for(var j = i; j <= 4; j++){
+        //         console.log(i,j);
+        //         //补充打断条件
+        //         if( j >= 2){
+        //         break;                    
+        //         }
+        //     }
+        // }
+
+        //如果想终止外层循环，需要给外层循环添加一个名字
+        waiceng : for (var i = 1; i <= 4; i++){
+            for(var j = i; j <= 4; j++){
+                console.log(i,j);
+                //补充打断条件
+                if( j >= 2){
+                break waiceng;                    
+                }
+            }
+        }
+    </script>
+
+
+
+
+</head>
+<body>
+    
+</body>
+</html>

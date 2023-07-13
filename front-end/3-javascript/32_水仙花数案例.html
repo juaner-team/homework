@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //列举思想，列举所有的三位数
+        for (var i = 100; i <= 999 ; i++){
+            //i 的三个数位的三次方的和，等于 i 自己
+            //找到个位数，十位数，百位数的数字
+            var ge = i % 10,
+                shi = parseInt(i / 10) % 10,
+                bai = parseInt(i / 100);
+            //计算三个数位的三次方的和
+            var sum = ge * ge * ge + shi * shi * shi + bai * bai * bai;
+            //判断 sum 是否等于 i 自己，如果是 ，就是水仙花数，需要输出
+
+            if(sum == i){
+                console.log(i);
+            }
+        }   
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

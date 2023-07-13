@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //输出 6 的所有约数
+        //外层需要列举 1-6 之间的数字
+        // for(var i = 1 ; i <= 6 ; i++){
+            //内层判断是否是 6 的约数
+        //     if(6 % i == 0){
+        //         console.log(i + "是6的一个约数");
+        //     }
+        // }
+
+        //进阶： 让用户随意输入一个正数，给用户输出这个数字所有的约数
+        var n = parseInt(prompt("请输入一个正整数"));
+        //穷举思想，外层一一列举可能性，内层判断
+        for ( var i = 1; i <= n; i++){
+            //内层判断 i是否是 n 的约数
+            if(n % i == 0) {
+                console.log(i + "是" + n + "的一个约数");
+            }
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

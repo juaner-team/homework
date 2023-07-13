@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //找到1-30之间不是5的倍数的数字进行输出
+        for(var i = 1; i <= 30; i++){
+            //排除5的倍数
+            if(i % 5 == 0){
+                //说明是5的倍数，不要往下进行输出
+                continue;
+            }
+            console.log(i);
+        }
+
+            //continue 只能进入自己的循环的下一次
+            // for(var i = 1; i <= 4 ; i++){
+            //     for(var j = 1; j <= 4; j++){
+            //         //补充打断这一次条件
+            //         if(j % 2 == 0){
+            //             continue;
+            //         }
+            //         console.log(i,j);
+            //     }
+            // }
+
+            //continue 要控制外层循环，需要给外层循环添加标签名
+            waiceng : for(var i = 1; i <= 4 ; i++){
+                for(var j = 1; j <= 4; j++){
+                    //补充打断这一次条件
+                    if(j % 2 == 0){
+                        continue waiceng;
+                    }
+                    console.log(i,j);
+                }
+            }
+            
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

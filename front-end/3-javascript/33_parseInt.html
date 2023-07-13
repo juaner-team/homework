@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //第一步：将“123”的字符串，转换乘八进制的123数字
+        //第二步：将 八进制的123，转成十进制
+        console.log(parseInt("123",8));
+        //没有第二个参数
+        //0x 开头，强制使用16进制进行转换
+        console.log(parseInt("0x123"));
+        // 0/0o 开头，ES3 中按照八进制， ES5 按照十进制
+        console.log(parseInt("0123"));
+        console.log(parseInt("0o123"));
+        //其他字符开头，按十进制
+        console.log(parseInt("123"));
+        //书写进制
+        console.log(parseInt("789",8));
+        console.log(parseInt(Infinity,10));
+        console.log(parseInt("123.45",10));
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
