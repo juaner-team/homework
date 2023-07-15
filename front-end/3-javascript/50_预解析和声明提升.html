@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        //预解析，把变量.函数声明部分提升到了作用域最顶部
+        var a;
+        function fun(){
+            console.log(2);
+        }
+
+        //调用一个变量
+        console.log(a);
+        //后定义变量
+        // var a = 1;
+        a = 1;
+
+        //先调用函数
+        fun (); 
+        //定义函数
+        // function fun(){
+        //     console.log(2);
+        // }
+        //调用
+        fun();
+    </script>
+</head>
+<body>
+    
+</body>
+</html> 

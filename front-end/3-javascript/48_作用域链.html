@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+    //全局作用域
+    var a = 1;
+    //创建函数
+    function outer () {
+        var a = 2;
+        //内部函数
+        function inner(){
+            // var a = 3;
+            console.log(a);
+        }
+        inner();
+    }
+    //调用函数
+    outer();
+</script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // //全局作用域
+        // a = 1;
+        // console.log(a);
+        // //创建函数
+        function outer(){
+            a = 2;
+            //内部函数
+            function inner(){
+                var a = 3;
+                console.log(a);
+            }
+            inner();
+            console.log(a);
+        }
+        //调用
+        outer();
+        // a=2污染了全局变量，a输出2
+        console.log(a);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

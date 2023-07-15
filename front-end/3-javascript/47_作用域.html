@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // var a = 0;        
+        // //定义函数
+
+        // function fun () {
+        //     var a = 1;
+        //     console.log(a);
+        // }
+        // //执行函数
+        // fun();
+        // //函数外部调用 a
+        // console.log(a);
+
+        //函数的参数也是局部变量
+    //     function fun(a) {
+    //         a = 2;
+    //         console.log(a);
+    //     }
+    //     //调用函数
+    //     fun(1);
+    //     // console.log(a);
+    
+    //函数也有自己的作用域
+    function outer(){
+        var a = 1;
+        function inner(){
+            console.log(2);
+        }
+        //函数内部调用子函数才能成功
+    inner();        
+    }
+    //调用函数
+    outer();
+    // inner();  
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
