@@ -1,0 +1,96 @@
+2023-07-17 15:01:24.663 +08:00 [INF] Now listening on: https://localhost:7076
+2023-07-17 15:01:24.707 +08:00 [INF] Now listening on: http://localhost:5173
+2023-07-17 15:01:24.711 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-17 15:01:24.712 +08:00 [INF] Hosting environment: Development
+2023-07-17 15:01:24.713 +08:00 [INF] Content root path: D:\GitHub\TodoList\TodoList\src\TodoList.Api\
+2023-07-17 15:01:26.323 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger - -
+2023-07-17 15:01:26.615 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger - - - 301 0 - 295.3459ms
+2023-07-17 15:01:26.618 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/index.html - -
+2023-07-17 15:01:26.979 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/index.html - - - 200 - text/html;charset=utf-8 360.9137ms
+2023-07-17 15:01:26.992 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui-standalone-preset.js - -
+2023-07-17 15:01:26.992 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui.css - -
+2023-07-17 15:01:26.992 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui-bundle.js - -
+2023-07-17 15:01:26.996 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 15:01:27.000 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 12355 application/javascript;+charset=utf-8 3.7879ms
+2023-07-17 15:01:27.015 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2023-07-17 15:01:27.053 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-07-17 15:01:27.053 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-07-17 15:01:27.053 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-07-17 15:01:27.054 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 62.1079ms
+2023-07-17 15:01:27.056 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui.css - - - 200 144929 text/css 63.3911ms
+2023-07-17 15:01:27.057 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 64.4743ms
+2023-07-17 15:01:27.089 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 73.9470ms
+2023-07-17 15:01:27.216 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - -
+2023-07-17 15:01:27.274 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/favicon-32x32.png - -
+2023-07-17 15:01:27.277 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-07-17 15:01:27.279 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/favicon-32x32.png - - - 200 628 image/png 4.7647ms
+2023-07-17 15:01:27.326 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.5008ms
+2023-07-17 15:45:19.440 +08:00 [INF] Now listening on: https://localhost:7076
+2023-07-17 15:45:19.478 +08:00 [INF] Now listening on: http://localhost:5173
+2023-07-17 15:45:19.482 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-17 15:45:19.483 +08:00 [INF] Hosting environment: Development
+2023-07-17 15:45:19.484 +08:00 [INF] Content root path: D:\GitHub\TodoList\TodoList\src\TodoList.Api\
+2023-07-17 15:45:21.199 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger - -
+2023-07-17 15:45:21.446 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger - - - 301 0 - 250.1444ms
+2023-07-17 15:45:21.447 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/index.html - -
+2023-07-17 15:45:21.781 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 15:45:21.781 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui-standalone-preset.js - -
+2023-07-17 15:45:21.781 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui-bundle.js - -
+2023-07-17 15:45:21.781 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui.css - -
+2023-07-17 15:45:21.782 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/index.html - - - 200 - text/html;charset=utf-8 335.4551ms
+2023-07-17 15:45:21.788 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 12355 application/javascript;+charset=utf-8 6.6710ms
+2023-07-17 15:45:21.799 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2023-07-17 15:45:21.873 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-07-17 15:45:21.873 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-07-17 15:45:21.873 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-07-17 15:45:21.874 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 92.7316ms
+2023-07-17 15:45:21.875 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 76.6045ms
+2023-07-17 15:45:21.875 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 93.4835ms
+2023-07-17 15:45:21.876 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui.css - - - 200 144929 text/css 94.0387ms
+2023-07-17 15:45:22.180 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - -
+2023-07-17 15:45:22.206 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/favicon-32x32.png - -
+2023-07-17 15:45:22.208 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-07-17 15:45:22.209 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/favicon-32x32.png - - - 200 628 image/png 2.9818ms
+2023-07-17 15:45:22.291 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 110.7595ms
+2023-07-17 15:47:44.481 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/WeatherForecast - -
+2023-07-17 15:47:44.492 +08:00 [INF] Executing endpoint 'TodoList.Api.Controllers.WeatherForecastController.Get (TodoList.Api)'
+2023-07-17 15:47:44.509 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoList.Api.WeatherForecast] Get() on controller TodoList.Api.Controllers.WeatherForecastController (TodoList.Api).
+2023-07-17 15:47:44.513 +08:00 [INF] maybe this log is provided by Serilog...
+2023-07-17 15:47:44.518 +08:00 [INF] Executing ObjectResult, writing value of type 'TodoList.Api.WeatherForecast[]'.
+2023-07-17 15:47:44.544 +08:00 [INF] Executed action TodoList.Api.Controllers.WeatherForecastController.Get (TodoList.Api) in 28.2126ms
+2023-07-17 15:47:44.549 +08:00 [INF] Executed endpoint 'TodoList.Api.Controllers.WeatherForecastController.Get (TodoList.Api)'
+2023-07-17 15:47:44.551 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/WeatherForecast - - - 200 - application/json;+charset=utf-8 69.9683ms
+2023-07-17 15:47:47.276 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/WeatherForecast - -
+2023-07-17 15:47:47.278 +08:00 [INF] Executing endpoint 'TodoList.Api.Controllers.WeatherForecastController.Get (TodoList.Api)'
+2023-07-17 15:47:47.279 +08:00 [INF] Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[TodoList.Api.WeatherForecast] Get() on controller TodoList.Api.Controllers.WeatherForecastController (TodoList.Api).
+2023-07-17 15:47:47.282 +08:00 [INF] maybe this log is provided by Serilog...
+2023-07-17 15:47:47.283 +08:00 [INF] Executing ObjectResult, writing value of type 'TodoList.Api.WeatherForecast[]'.
+2023-07-17 15:47:47.284 +08:00 [INF] Executed action TodoList.Api.Controllers.WeatherForecastController.Get (TodoList.Api) in 3.1938ms
+2023-07-17 15:47:47.287 +08:00 [INF] Executed endpoint 'TodoList.Api.Controllers.WeatherForecastController.Get (TodoList.Api)'
+2023-07-17 15:47:47.288 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/WeatherForecast - - - 200 - application/json;+charset=utf-8 11.8296ms
+2023-07-17 16:02:13.133 +08:00 [INF] Now listening on: https://localhost:7076
+2023-07-17 16:02:13.181 +08:00 [INF] Now listening on: http://localhost:5173
+2023-07-17 16:02:13.189 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-17 16:02:13.191 +08:00 [INF] Hosting environment: Development
+2023-07-17 16:02:13.192 +08:00 [INF] Content root path: D:\GitHub\TodoList\src\TodoList.Api\
+2023-07-17 16:02:13.767 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/index.html - -
+2023-07-17 16:02:14.412 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 16:02:14.425 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 12355 application/javascript;+charset=utf-8 11.2224ms
+2023-07-17 16:02:14.426 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/index.html - - - 200 - text/html;charset=utf-8 664.7074ms
+2023-07-17 16:02:14.427 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2023-07-17 16:02:14.487 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.8453ms
+2023-07-17 16:02:14.653 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - -
+2023-07-17 16:02:14.762 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.1759ms
+2023-07-17 16:52:32.969 +08:00 [INF] Now listening on: https://localhost:7076
+2023-07-17 16:52:33.013 +08:00 [INF] Now listening on: http://localhost:5173
+2023-07-17 16:52:33.020 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-07-17 16:52:33.022 +08:00 [INF] Hosting environment: Development
+2023-07-17 16:52:33.022 +08:00 [INF] Content root path: D:\GitHub\TodoList\src\TodoList.Api\
+2023-07-17 16:52:33.476 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/index.html - -
+2023-07-17 16:52:33.996 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2023-07-17 16:52:34.001 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2023-07-17 16:52:34.003 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 12355 application/javascript;+charset=utf-8 6.1798ms
+2023-07-17 16:52:34.003 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/index.html - - - 200 - text/html;charset=utf-8 534.3769ms
+2023-07-17 16:52:34.026 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.5722ms
+2023-07-17 16:52:34.193 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - -
+2023-07-17 16:52:34.302 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 108.8048ms
