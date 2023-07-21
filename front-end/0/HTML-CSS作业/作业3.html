@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .triangle {
+            /* 设置四个方向内边距都为30像素 */
+            border-left: 30px solid transparent;
+            border-right: 30px solid transparent;
+            /* border-top: 30px solid #666; */
+            /* 取消掉top */
+            /* 再把左右两边border透明 */
+            border-bottom: 30px solid #333;
+            /* 设置容器宽高都为0  */
+            width: 0;
+            height: 0;
+        }
+        /* 根据实现三角形不同，可以用多种方法设置，
+        但方法基本都是实现出三角形形状出来先，再把对应的多余部分设置背景颜色为透明即可 */
+    </style>
+</head>
+<body>
+    <div class="triangle"></div>
+</body>
+</html>
