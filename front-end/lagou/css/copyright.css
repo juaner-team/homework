@@ -1,0 +1,64 @@
+.copyright {
+    width: 100%;
+    height: 100px;
+    background-color: #fafafa;
+}
+.copyright-c {
+    height: 60px;
+    padding-top: 28px;
+    line-height: 60px;
+}
+.copyright-c .left {
+    float: left;
+    height: 60px;
+}
+.copyright-c .left .copyright-title {
+    float: left;
+    margin-right: 5px;
+}
+.copyright-c .left .icp {
+    float: left;
+    margin-right: 20px;
+}
+.copyright-c .left .anbei {
+    float: left;
+    position: relative;
+    padding-left: 20px;
+    margin-right: 18px;
+}
+.copyright-c .left .anbei i {
+    position: absolute;
+    top: 22px;
+    left: 0;
+    width: 14px;
+    height: 16px;
+    background: url(../images/sprite_02.png) no-repeat -151px -184px;
+}
+.copyright-c .left .jubao {
+    float: left;
+    position: relative;
+    width: 136px;
+    padding:8px 0 8px 50px;
+    border:1px solid #d5dadf;
+    font-size: 12px;
+    line-height: 14px;
+    color: #999999;
+}
+.copyright-c .left .jubao span {
+    display: block;
+}
+.copyright-c .left .jubao i {
+    position: absolute;
+    left: 20px;
+    width: 20px;
+    top: 17px;
+    height: 24px;
+    background:url(../images/sprite_02.png) no-repeat -132px -20px;
+}
+.copyright-c .lagou-icon {
+    float: right;
+    width: 198px;
+    height: 19px;
+    margin-top: 21px;
+    background: url(../images/footer_lagou_icon.png)no-repeat;
+}

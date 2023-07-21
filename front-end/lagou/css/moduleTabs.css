@@ -1,0 +1,90 @@
+/* tab 公共样式 */
+.content .module-tabs {
+  width: 100%;
+  margin-top: 37px;
+  margin-bottom: 54px;
+}
+.content .module-tabs .title {
+  width: 100%;
+  height: 50px;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 28px;
+}
+.content .module-tabs .title span {
+  float: left;
+  height: 48px;
+  margin-right: 58px;
+  font-size: 16px;
+  line-height: 48px;
+  color: #999999;
+  cursor: pointer;
+}
+.content .module-tabs .title span.current {
+  border-bottom: 2px solid #333;
+  color: #333;
+}
+/* 热点提示 */
+.content .module-tabs .hot-tips {
+  height: 18px;
+  margin-bottom: 18px;
+  line-height: 18px;
+}
+.content .module-tabs .hot-tips i {
+  float: left;
+  width: 18px;
+  height: 18px;
+  margin-right: 14px;
+  border-radius: 50%;
+  background-color: #e6e6e6;
+  color: #fff;
+  text-align: center;
+}
+.content .module-tabs .hot-tips span {
+  float: left;
+  margin-right: 20px;
+  color: #999;
+}
+.content .module-tabs .hot-tips a {
+  float: left;
+  color: #00b38a;
+}
+
+/* 公共的detail部分 */
+.content .module-tabs .detail {
+  width: 100%;
+  overflow: hidden;
+}
+.content .module-tabs .detail ul {
+  width: 1220px;
+  overflow: hidden;
+  display: none;
+}
+.content .module-tabs .detail ul.current {
+  display: block;
+}
+.content .module-tabs .detail ul li {
+  float: left;
+  width: 351px;
+  height: 178px;
+  padding: 20px 18px 0;
+  border: 1px solid #eaeeed;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+/* 公共的查看更多 */
+.content .module-tabs .more {
+  display: block;
+  width: 387px;
+  height: 42px;
+  border: 1px solid #00b38a;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 42px;
+  text-align: center;
+  color: #66b48b;
+}
+.content .module-tabs .more:hover {
+  color: #fff;
+  background-color: #66b48b;
+}

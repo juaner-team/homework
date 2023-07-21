@@ -1,0 +1,40 @@
+/* 搜索框区域 */
+.search {
+    width: 100%;
+    height: 132px;
+    background-color: #f2f5f4;
+}
+.search .search-wrapper {
+    width: 937px;
+    height: 102px;
+    padding-top: 30px;
+    margin: 0 auto;
+}
+.search .search-wrapper .search-form {
+    width: 937px;
+    height: 46px;
+}
+.search .search-wrapper .search-form .search-input {
+    float:left ;
+    width: 778px;
+    height: 44px;
+    padding-left: 16px;
+    border: 1px solid;
+    border-right: 0;
+    background-color: #fff;
+    font: size 16px; 
+    line-height: 44px;
+}
+.search .search-wrapper .search-form .btn {
+    float: left;
+    width:142px ;
+    height: 46px;
+    background-color: #00b38a;
+    text-align: center;
+    font-size: 18px;
+    line-height: 46px;
+    color: #fff;
+}
+.search .search-wrapper .search-form .btn:hover{
+    background-color: #5ea680;
+}

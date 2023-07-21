@@ -1,0 +1,148 @@
+/* 通栏的大盒子 */
+.login-banner {
+    width: 100%;
+    height: 120px;
+    background-color: #00b38a;
+  }
+  .login-banner-c {
+    height: 83px;
+    padding-top: 37px;
+    background: url(../images/logo_ad.png) no-repeat left bottom;
+    background-size: 228px 120px;
+  }
+/* 左侧盒子 */
+.login-banner-c .ad {
+    float: left;
+    padding-left: 237px;
+  }
+  .login-banner-c .ad img {
+    display: block;
+    width: 330px;
+    height: 29px;
+  }
+  .login-banner-c .ad p {
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    cursor: default;
+  }
+  /* 右侧表单部分 */
+  .login-banner-c .login-form {
+    float: right;
+    margin-top: 5px;
+  }
+  .login-banner-c .login-form .tel {
+    float: left;
+    width: 212px;
+    height: 35px;
+    margin-right: 8px;
+    background-color: #fff;
+  }
+  .login-banner-c .login-form .tel .area-code {
+    float: left;
+    position: relative;
+    width: 66px;
+    height: 35px;
+  
+  }
+  .login-banner-c .login-form .tel .area-code .area-code-now {
+    display: block;
+    width: 56px;
+    height: 35px;
+    padding-left: 10px;
+    background: url(../images/arrow_down_small.png) no-repeat right center;
+    color: #999;
+    line-height: 35px;
+    cursor: pointer;
+  }
+  .login-banner-c .login-form .tel .area-code .area-code-list {
+    position: absolute;
+    display: none;
+    left: 0;
+    top: 35px;
+    width: 214px;
+    height: 288px;
+    border: 1px solid #eeeeee;
+    background-color: #fff;
+    overflow: auto;
+    cursor: default;
+  }
+  .login-banner-c .login-form .tel .area-code .area-code-list dl dt {
+    height: 36px;  
+    padding-left: 12px;
+    background-color: #fbfbfb;
+    line-height: 36px;
+    color: #555555;
+  }
+  .login-banner-c .login-form .tel .area-code .area-code-list dl dd {
+    height: 36px;
+    padding: 0 12px;
+    line-height: 36px;
+    color: #999999;
+  }
+  .login-banner-c .login-form .tel .area-code .area-code-list dl dd:hover {
+    color: #66b48b;
+    background-color: #f4f4f4;
+  }
+  .login-banner-c .login-form .tel .area-code .area-code-list dl dd span {
+    float: right;
+  }
+  .login-banner-c .login-form .tel .area-code .area-code-list p {
+    padding: 40px 12px;
+    line-height: 22px;
+    color: #b5b5b5;
+  }
+  .login-banner-c .login-form .tel .user-tel {
+    float: left;
+    width: 136px;
+    height: 35px;
+    padding-left: 10px;
+  }
+  /* 验证码 */
+  .login-banner-c .login-form .yzm {
+    float: left;
+    width: 146px;
+    height: 35px;
+    margin-right: 8px;
+    background-color: #fff;
+  }
+  .login-banner-c .login-form .yzm .yzm-txt {
+    float: left;
+    width: 80px;
+    height: 35px;
+    padding-left: 10px;
+  }
+  .login-banner-c .login-form .yzm i {
+    float: left;
+    width: 8px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #d5dadf;
+  }
+  .login-banner-c .login-form .yzm span {
+    float: left;
+    width: 42px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    color: #00b38a;
+    cursor: pointer;
+  }
+  /* 登录注册 */
+  .login-banner-c .login-form .login-or-register {
+    float: left;
+    width: 105px;
+    height: 33px;
+    border: 1px solid #fff;
+    margin-right: 4px;
+    background-color: #00b38a;
+    line-height: 33px;
+    text-align: center;
+    color: #ccefe7;
+    cursor: pointer;
+  }
+  .login-banner-c .login-form .login-or-register:hover {
+    background-color: #85c3a2;
+    color: #e0f0e8;
+  }
