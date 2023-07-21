@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 利用内嵌式书写css -->
+    <style type="text/css">
+        /* 常用边框属性值有  none 默认无边框  dashed 定义一个虚线边框  solid 定义一个实线边框 */
+        div {
+            /* 盒子内容的宽度和高度（不是盒子的宽度和高度）*/
+            width: 200px;
+            height: 200px;
+
+            /* 定义边框：1像素   实线边框  边框颜色为红色 */
+            border: 1px solid red;
+
+            /* 定义内边距为50像素 */
+            padding: 50px;
+            /* padding有四个方向 */
+            /* padding-top: 30px;
+	        padding-right: 20px;
+	        padding-bottom: 40px;
+	        padding-left: 100px; */
+            /* 分别代表四个方向，上  右 下 左  顺时针方向 */
+            
+
+
+            /* 定义外边距 30像素 */
+            margin: 30px;
+
+            /* background-color 将填充所有border 以内的区域 */
+            background-color: pink;
+
+            /* 这个盒子真是占有的宽高其实是
+                宽=margin + border + padding + width + padding + border + margin=30 + 1 + 50 + 200 + 50 + 1 + 30=362
+                高=margin + border + padding + width + padding + border + margin=30 + 1 + 50 + 200 + 50 + 1 + 30=362 */
+            /*  */
+        }
+    </style>
+
+</head>
+<body>
+    <!-- 用div显示盒子 -->
+    <div>这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子这是一个div盒子</div>
+    
+</body>
+</html>
