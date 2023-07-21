@@ -6,25 +6,39 @@
     <title>Document</title>
     <script>
         //预解析，把变量.函数声明部分提升到了作用域最顶部
-        var a;
-        function fun(){
-            console.log(2);
-        }
+        //模拟提升
+        // var a;  //相当于存了一个undefine的值
+        // var fun;
+        // function fun(){
+        //     console.log(2);
+        // }
 
-        //调用一个变量
-        console.log(a);
-        //后定义变量
+        // //调用一个变量
+        // console.log(a);
+        // console.log(fun);
+        // //后定义变量
         // var a = 1;
-        a = 1;
+        // // a = 1;
+        // // var fun = "haha";
+        // fun = "haha";
 
         //先调用函数
-        fun (); 
+        // fun (); 
         //定义函数
         // function fun(){
         //     console.log(2);
         // }
-        //调用
-        fun();
+        // //调用
+        // fun();
+
+        console.log(foo);
+        foo();
+
+        //函数表达式进行的是变量声明的提升
+        var foo = function () {
+            console.log(3);
+
+        }
     </script>
 </head>
 <body>

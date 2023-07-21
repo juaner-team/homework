@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+    //     //关键字定义的方式,不能立即执行
+    //     function fun(){
+    //         console.log(1);
+    //     }();
+
+    //函数表达方式,可以在定义时被立即执行
+    // var foo = function fun() {
+    //     console.log(2);
+    // }();
+
+    //通过在函数前面添加操作符，可以将函数矮化成表达式
+    + function fun(){
+        console.log(1);
+    }();
+    - function fun(){
+        console.log(1);
+    }();
+    (function fun(){
+        console.log(1);
+    })();
+    ! function fun(){
+        console.log(1);
+    }();
+    // *执行不成立
+    // * function fun(){
+    //     console.log(1);
+    // }();
+    //IIFE 关住了函数的作用域，在外卖时调用不了函数的
+    // fun();
+
+    //常用的IIFE 结构
+    (function (a) {
+        // console.log (a);
+    })(4);
+    // console.log(a);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
