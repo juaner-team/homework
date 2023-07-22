@@ -13,13 +13,32 @@
                     background-attachment: fixed;
                 }
     </style>
-    <div class="choose">
-        <input class="check checkSty" id="agreeOrNot" type="checkbox"/>
-        <div class="notic">我想获取3840x2160源壁纸</div>
-    </div>
-    <!-- button -->
-    <a href=https://wallhaven.cc/w/gp9god">
-        <div class="sub btn" onclick = "return enter();">前往壁纸发源地</div>
-    </a>
+    <script>
+        function check(){
+            if(!document.getElementById("checkBoxID").checked){
+                alert("你必须同意协议");
+                return false
+            }
+            return true
+        }
+    </script>
+    <body>
+        <form id="form_signIn" name="form_signIn" method="post" action="">
+            <div style="border:1px solid #ace;width:800px;height:400px;margin:5px auto;padding:5px">你即将前往壁纸发源地</div>
+            <div style="width:800px;margin:5px auto;text-align:right">
+                <p>
+                    <label>
+                        <input type="checkbox" name="checkBoxName" id="checkBoxID" />
+                        我同意
+                        <a href="https://wallhaven.cc/w/gp9god">跳转</a>
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" name="button" id="button" value="跳转声明" onclick="return check()" />
+                </p>
+                <a href="javascript:if(confirm('前往壁纸发源地吗?')){location='https://wallhaven.cc/w/gp9god'}">浏览器弹窗提示</a>
+            </div>
+        </form>
+    </body>
 </head>
 </html>
