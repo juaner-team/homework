@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th,td{
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <!-- 一个完整的表格分四大区域：表格标题 / 表格头部 / 表格主体 / 表格页脚 -->
+    <!-- <table> 内部最直接的子级包含四个分区标签 -->
+    <!-- caption：表格的标题  -->
+    <!-- thead：table head，表格的头部。内部嵌套 tr > th -->
+    <!-- tbody: table body, 表格的主体。内部嵌套 tr > td -->
+    <!-- tfoot:table foot,表格的页脚。内部嵌套 tr > td -->
+</body>
+    <!-- 1 先书写大分区标签结构
+         2 填充每个分区的内部内容
+         3 如果有合并单元格内容，进行单元格合并 -->
+
+         <!--border  边框为1像素   style="border-collapse: collapse;"折叠边框 -->
+    <table border="1" >
+        <!-- 先进行分区 -->
+        <caption>表格标题</caption>
+        <thead>
+            <!-- tr代表行 -->
+            <!-- th 代表单元格-->
+            <tr>
+                <th>表格头部</th>
+                <th>表格头部</th>
+                <th>表格头部</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!-- td 表格中标准单元格 -->
+                <td>123</td>
+                <td>123</td>
+                <td>123</td>
+            </tr>
+            <tr>
+                <td>123</td>
+                <td>123</td>
+                <td>123</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>表格脚部</td>
+                <td>表格脚部</td>
+                <td>表格脚部</td>
+
+            </tr>
+        </tfoot>
+
+    </table>
+</html>
