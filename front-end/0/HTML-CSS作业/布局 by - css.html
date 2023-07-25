@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 利用内嵌式书写css -->
+    <style type="text/css">
+        .container .header{
+            width: 100%;
+            height: 100%;
+        }
+       .container .header{
+            border: 1px solid black;
+            height: 100px;
+            background-color: purple;
+
+        }
+        .container .content{
+            display: flex;
+            flex-direction: row;
+            height: 500px;
+            margin: 2px 0;
+        }
+        .container .content .left{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            background-color: aqua;
+        }
+
+        .container .content .left .left1{
+            width: 100%;
+            border: 1px solid black;
+            background-color: gray;
+        }
+
+        .container .content .left .left2{
+            width: 100%;
+            border: 1px solid black;
+            background-color: green;
+        }
+
+        .container .content .right{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            background-color: antiquewhite;
+        }
+
+        .container .content .right .right1{
+            height: 100%;
+            border: 1px solid black;
+            background-color: yellow;
+        }
+
+        .container .content .right .right2{
+            height: 100%;
+            border: 1px solid black;
+            background-color: blue;
+        }
+
+
+        .container .foot{
+            border: 1px solid black;
+            height: 100px;
+            background-color: white;
+        }
+    </style>
+
+</head>
+<body>
+  <div class="container">
+    <div class="header">这是head.html</div>
+    <div class="content">
+        <div class="left">
+            <div class="left1">这是left1.html</div>
+            <div class="left2">这是left2.html</div>
+        </div>
+        <div class="right">
+            <div class="right1">这是right1.html</div>
+            <div class="right2">这是right2.html</div>
+        </div>
+    </div>
+    <div class="foot">这是foot.html</div>
+  </div>
+</body>
+</html>
