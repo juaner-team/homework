@@ -41,7 +41,6 @@ app.UseAuthorization();
 app.MapControllers();
 
 // 调用扩展方法
-//app.MigrateDatabase();
-// 直接安装了SMSS,所以没有采用Migration方式
+app.MigrateDatabase();
 
 app.Run();

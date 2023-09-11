@@ -22,8 +22,5 @@ public static class DependencyInjection
         // 增加依赖注入
         services.AddScoped<IDomainEventService, DomainEventService>();
         return services;
-
-
-        return services;
     }
 }
