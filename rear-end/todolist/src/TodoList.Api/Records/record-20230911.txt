@@ -1,0 +1,40 @@
+2023-09-11 14:57:58.523 +08:00 [INF] Executed DbCommand (29ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-11 14:57:58.613 +08:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-11 14:57:58.623 +08:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2023-09-11 14:57:58.629 +08:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2023-09-11 14:57:58.920 +08:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2023-09-11 14:57:58.953 +08:00 [INF] No migrations were applied. The database is already up to date.
+2023-09-11 14:57:59.173 +08:00 [INF] Now listening on: https://localhost:7076
+2023-09-11 14:57:59.174 +08:00 [INF] Now listening on: http://localhost:5173
+2023-09-11 14:57:59.179 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-11 14:57:59.180 +08:00 [INF] Hosting environment: Development
+2023-09-11 14:57:59.181 +08:00 [INF] Content root path: D:\GitHub\homework\rear-end\todolist\src\TodoList.Api\
+2023-09-11 14:58:00.442 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger - -
+2023-09-11 14:58:00.644 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger - - - 301 0 - 205.0309ms
+2023-09-11 14:58:00.651 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/index.html - -
+2023-09-11 14:58:00.966 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/index.html - - - 200 - text/html;charset=utf-8 315.1537ms
+2023-09-11 14:58:00.969 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui-bundle.js - -
+2023-09-11 14:58:00.969 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2023-09-11 14:58:00.969 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui-standalone-preset.js - -
+2023-09-11 14:58:00.969 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2023-09-11 14:58:00.969 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/swagger-ui.css - -
+2023-09-11 14:58:00.974 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 5.5101ms
+2023-09-11 14:58:01.012 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 43.0763ms
+2023-09-11 14:58:01.021 +08:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-09-11 14:58:01.021 +08:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-09-11 14:58:01.021 +08:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-09-11 14:58:01.023 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 54.0116ms
+2023-09-11 14:58:01.024 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui.css - - - 200 144929 text/css 54.6957ms
+2023-09-11 14:58:01.026 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 57.2214ms
+2023-09-11 14:58:01.183 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - -
+2023-09-11 14:58:01.202 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/favicon-32x32.png - -
+2023-09-11 14:58:01.204 +08:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-09-11 14:58:01.207 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/favicon-32x32.png - - - 200 628 image/png 5.1258ms
+2023-09-11 14:58:01.311 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 127.9766ms
