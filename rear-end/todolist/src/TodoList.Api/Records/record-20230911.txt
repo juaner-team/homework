@@ -1,0 +1,13 @@
+2023-09-11 16:08:30.255 +08:00 [INF] Now listening on: https://localhost:7076
+2023-09-11 16:08:30.296 +08:00 [INF] Now listening on: http://localhost:5173
+2023-09-11 16:08:30.302 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-09-11 16:08:30.304 +08:00 [INF] Hosting environment: Development
+2023-09-11 16:08:30.305 +08:00 [INF] Content root path: D:\GitHub\homework\rear-end\todolist\src\TodoList.Api\
+2023-09-11 16:08:31.030 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/index.html - -
+2023-09-11 16:08:31.534 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/index.html - - - 200 - text/html;charset=utf-8 506.4930ms
+2023-09-11 16:08:31.549 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - -
+2023-09-11 16:08:31.549 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/_vs/browserLink - -
+2023-09-11 16:08:31.560 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_framework/aspnetcore-browser-refresh.js - - - 200 12356 application/javascript;+charset=utf-8 11.0638ms
+2023-09-11 16:08:31.569 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 19.5820ms
+2023-09-11 16:08:31.726 +08:00 [INF] Request starting HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - -
+2023-09-11 16:08:31.826 +08:00 [INF] Request finished HTTP/2 GET https://localhost:7076/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 100.2735ms
