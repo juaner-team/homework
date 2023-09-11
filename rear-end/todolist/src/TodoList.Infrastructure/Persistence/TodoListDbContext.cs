@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Reflection;
-using System.Reflection.Emit;
+﻿using System.Reflection;
 using Microsoft.EntityFrameworkCore;
 using TodoList.Application.Common.Interfaces;
 using TodoList.Domain.Base;
@@ -51,6 +49,7 @@ public class TodoListDbContext : DbContext
         var result = await base.SaveChangesAsync(cancellationToken);
 
         await DispatchEvents(events);
+
         return result;
     }
 
