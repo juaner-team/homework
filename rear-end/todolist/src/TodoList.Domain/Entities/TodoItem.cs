@@ -8,6 +8,7 @@ namespace TodoList.Domain.Entities;
 public class TodoItem : AuditableEntity, IEntity<Guid>, IHasDomainEvent
 {
     public Guid Id { get; set; }
+    public Guid ListId { get; set; }
     public string? Title { get; set; }
     public PriorityLevel Priority { get; set; }
 
