@@ -1,5 +1,5 @@
 using TodoList.Infrastructure;
-using TodoList.Infrastructure.Record;
+using TodoList.Infrastructure.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
