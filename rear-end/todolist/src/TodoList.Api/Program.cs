@@ -1,3 +1,4 @@
+using TodoList.Api.Extensions;
 using TodoList.Application;
 using TodoList.Infrastructure;
 using TodoList.Infrastructure.Logging;
@@ -31,6 +32,8 @@ builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
 var app = builder.Build();
+//实现全局异常处理
+app.UseGlobalExceptionHandler();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -43,9 +46,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-// 省略以上...
 app.MapControllers();
-
 // 调用扩展方法
 app.MigrateDatabase();
 
