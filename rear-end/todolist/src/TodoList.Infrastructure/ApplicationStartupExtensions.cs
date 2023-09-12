@@ -12,11 +12,18 @@ public static class ApplicationStartupExtensions
         using var scope = app.Services.CreateScope();
         var services = scope.ServiceProvider;
 
+        // 省略以上...
         try
         {
             var context = services.GetRequiredService<TodoListDbContext>();
             context.Database.Migrate();
+            // 生成种子数据
+            TodoListDbContextSeed.SeedSampleDataAsync(context).Wait();
+            // 更新部分种子数据以便查看审计字段
+            TodoListDbContextSeed.UpdateSampleDataAsync(context).Wait();
         }
+        // 省略以下...
+
         catch (Exception ex)
         {
             throw new Exception($"An error occurred migrating the DB: {ex.Message}");

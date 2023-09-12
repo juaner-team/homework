@@ -33,6 +33,7 @@ public static class TodoListDbContextSeed
 
     public static async Task UpdateSampleDataAsync(TodoListDbContext context)
     {
+        // 这个地方只是演示，请忽略日志生成的SQL语法提示
         var sampleTodoList = await context.TodoLists.FirstOrDefaultAsync();
         if (sampleTodoList == null)
         {

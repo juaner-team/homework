@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using TodoList.Application.Common.Interfaces;
 using TodoList.Infrastructure.Persistence;
+using TodoList.Infrastructure.Persistence.Repositories;
 using TodoList.Infrastructure.Services;
 
 namespace TodoList.Infrastructure;
@@ -21,6 +22,10 @@ public static class DependencyInjection
 
         // 增加依赖注入
         services.AddScoped<IDomainEventService, DomainEventService>();
+
+        // in AddInfrastructure, 省略其他
+        services.AddScoped(typeof(IRepository<>), typeof(RepositoryBase<>));
+
         return services;
     }
 }
